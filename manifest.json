@@ -1,0 +1,28 @@
+
+{
+
+  "manifest_version": 2,
+  "name": "VPTC Extension",
+  "version": "1.0",
+
+  "description": "Calculates youtube video's playback time after its speed is changed",
+
+  "icons": {
+    "48": "icons/icons8-video-48.png"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icons8-video-48.png",
+    "default_title": "VPTC Extension",
+    "default_popup": "popup/index.html"
+  },
+
+  "content_scripts": [{
+      "matches": ["*://*.youtube.com/*"]
+    }]
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222122;
+}   
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.main-container {
+    border-radius: 10px;
+    padding: 10px;  
+    text-align: end;
+}
+
+.main-container h3 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#video_speed, #video_speed > *  {
+    color: #000000;
+}
